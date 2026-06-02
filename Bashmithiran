@@ -1,0 +1,5 @@
+m = float(input("Mass of the Object: "))
+v = float(input("Enter the velocity: "))
+
+k = 0.5 * m * v**2
+print("The kinetic energy of the object is:", k)

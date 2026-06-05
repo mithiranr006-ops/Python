@@ -1,0 +1,5 @@
+num = (43,34,66767,90,434,343)
+Names = ('Bashmithiran','Bala','Bashu')
+mix= (num,Names)
+print(mix)
+print(mix [0][4])

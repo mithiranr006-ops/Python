@@ -1,0 +1,6 @@
+m = float(input("Mass of the Object: "))#To Get the valur of Mass from the User
+v = float(input("Enter the velocity: "))#To get the velocity of the object form the user
+
+k = 0.5 * m * v**2 #Calculation of Kinetic Engergy
+print("The kinetic energy of the object is",  k,sep='\n>>>')#Finally Showing the Output results of the Kinetioc Energy of the object
+

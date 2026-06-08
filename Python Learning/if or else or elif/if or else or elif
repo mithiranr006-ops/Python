@@ -1,11 +1,13 @@
 
-x=(float(input('Enter You Engines Highest Velocity in Km//h ' )))
-y=(float(input('Enter the approimate weight of you vehicle  ')))
+y=(float(input('Enter You Engines Highest Velocity in Km//h ' )))
+x=(float(input('Enter the approximate Mass of you vehicle in Kg ')))
 
 if x>100 and y>0:
  z = (0.5*y*(x/1000*3600)**2)
  print(f'You Vehicle reaches a maximum Kinetic Energy of {z} Joules')
 elif x>100 and y<=0:
  print('Invalid Vehicle velocity')
+elif x<=0 and y<=00:
+ print('Invalid Mass and Velocity')
 else:
  print('Invalid Mass Input')
